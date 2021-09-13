@@ -4,6 +4,9 @@ A simple CLI wrapper for [Songwhip](https://songwhip.com) to quickly generate a 
 
 ## Installation
 To install:
+```sh
+composer global require pandacodeuk/whip
+```
 
 ## License
 
