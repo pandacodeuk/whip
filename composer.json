@@ -1,0 +1,43 @@
+{
+    "name": "pandacodeuk/whip",
+    "description": "A simple CLI wrapper to generate Songwhip links to share music across different platforms.",
+    "keywords": ["songwhip", "Spotify", "Apple Music", "YouTube", "Amazon Music", "Tidal", "console", "cli"],
+    "homepage": "https://pandacode.co.uk",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Panda Code",
+            "email": "hello@pandacode.co.uk"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "guzzlehttp/guzzle": "^6.5.5",
+        "illuminate/http": "^8.0",
+        "laravel-zero/phar-updater": "^1.0.6"
+    },
+    "require-dev": {
+      "laravel-zero/framework": "^8.8",
+      "mockery/mockery": "^1.4.3",
+        "pestphp/pest": "^1.18"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["builds/whip"]
+}
